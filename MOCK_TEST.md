@@ -1,6 +1,8 @@
-# Class Test 1 Mock Test
+[Back to the study plan](README.md)
 
-35 questions, 70 minutes, no notes. Answers are at the bottom.
+# Mock test
+
+35 questions, no notes. Write your answers on paper, then [check them](#answers).
 
 **1.** *(True or False)* Flutter apps are written in the Dart language.
 
@@ -286,45 +288,48 @@ TextButton({
 - C. `_nameCtrl.text = null;`
 - D. `_nameCtrl.text = 0;`
 
-
 ---
+
+<a id="answers"></a>
 
 ## Answers
 
-| # | Answer | Why |
-|---|---|---|
-| 1 | True | Dart is the language and Flutter is the toolkit. |
-| 2 | False | The same codebase can be built for iOS. |
-| 3 | False | Flutter is not low-code. You write Dart code. |
-| 4 | True | DartPad runs Flutter as well as plain Dart. |
-| 5 | True | Both projects are open source. |
-| 6 | True | Numbers are objects too, so `8.toString()` works. |
-| 7 | False | An `int` variable is not a `double`. Use `pax.toDouble()`. |
-| 8 | True | The literal `6` is treated as `6.0` here. |
-| 9 | True | A local `final` can be set once on a later line. |
-| 10 | False | A `const` needs its value on the declaration line. |
-| 11 | False | It has `key: value` pairs, so it is a Map. |
-| 12 | True | The default value is used. |
-| 13 | True | It only draws what it is given. |
-| 14 | True | In Flutter's source, `Checkbox` extends `StatefulWidget`. |
-| 15 | False | `onPressed` is required. Pass `null` to disable the button. |
-| 16 | True | `createState()` is in the widget class. `build()` is in the State class. |
-| 17 | False | Flutter is not told to rebuild, so the screen stays the same. |
-| 18 | False | `Center` has `child` and holds one widget. |
-| 19 | C | Dart starts at `main()`, all in small letters. |
-| 20 | A | 3.25 × 2 = 6.5, and `${ }` prints the result. |
-| 21 | D | `int.parse` accepts whole numbers only. |
-| 22 | C | A comparison gives a bool. The value is `false`, which is fine. |
-| 23 | B | This is a Set, so the second 'A1' is dropped. |
-| 24 | B | Reading a key that does not exist gives `null`. |
-| 25 | C | `remark` is null, so `??` uses the right side. |
-| 26 | D | A plain `String` cannot be null and has no value yet. |
-| 27 | C | Two positional values, then the named one with a colon. |
-| 28 | D | `qty` is named, so a bare `3` is not allowed. |
-| 29 | D | Both required parameters are there, and `onPressed` may be null. |
-| 30 | C | `runApp` takes one widget. |
-| 31 | B | `.text` holds what the user typed. |
-| 32 | B | `setState` makes the change and asks Flutter to rebuild. |
-| 33 | A, C, E | `Row` and `Column` take `children`. |
-| 34 | A, C, D | `home` belongs to `MaterialApp`. `children` belongs to Row and Column. |
-| 35 | A, B | `.text` must be a String, so `null` and `0` do not compile. |
+For every wrong answer, open the topic in the last column and read it again.
+
+| # | Answer | Why | Read again |
+|---|---|---|---|
+| 1 | True | Dart is the language and Flutter is the toolkit. | [Flutter and Dart](notes/1-flutter-variables-strings.md#flutter-dart) |
+| 2 | False | The same codebase can be built for iOS. | [Flutter and Dart](notes/1-flutter-variables-strings.md#flutter-dart) |
+| 3 | False | Flutter is not low-code. You write Dart code. | [Flutter and Dart](notes/1-flutter-variables-strings.md#flutter-dart) |
+| 4 | True | DartPad runs Flutter as well as plain Dart. | [Flutter and Dart](notes/1-flutter-variables-strings.md#flutter-dart) |
+| 5 | True | Both projects are open source. | [Flutter and Dart](notes/1-flutter-variables-strings.md#flutter-dart) |
+| 6 | True | Numbers are objects too, so `8.toString()` works. | [Flutter and Dart](notes/1-flutter-variables-strings.md#flutter-dart) |
+| 7 | False | An `int` variable is not a `double`. Use `pax.toDouble()`. | [main(), variables and types](notes/1-flutter-variables-strings.md#variables) |
+| 8 | True | The literal `6` is treated as `6.0` here. | [main(), variables and types](notes/1-flutter-variables-strings.md#variables) |
+| 9 | True | A local `final` can be set once on a later line. | [main(), variables and types](notes/1-flutter-variables-strings.md#variables) |
+| 10 | False | A `const` needs its value on the declaration line. | [main(), variables and types](notes/1-flutter-variables-strings.md#variables) |
+| 11 | False | It has `key: value` pairs, so it is a Map. | [List, Set and Map](notes/2-collections-loops.md#collections) |
+| 12 | True | The default value is used. | [Functions and parameters](notes/3-functions-null-classes.md#functions) |
+| 13 | True | It only draws what it is given. | [Stateless, Stateful and setState](notes/5-state-textfield.md#state) |
+| 14 | True | In Flutter's source, `Checkbox` extends `StatefulWidget`. | [Stateless, Stateful and setState](notes/5-state-textfield.md#state) |
+| 15 | False | `onPressed` is required. Pass `null` to disable the button. | [Buttons and constructor headers](notes/4-widgets-buttons.md#buttons) |
+| 16 | True | `createState()` is in the widget class. `build()` is in the State class. | [Stateless, Stateful and setState](notes/5-state-textfield.md#state) |
+| 17 | False | Flutter is not told to rebuild, so the screen stays the same. | [Stateless, Stateful and setState](notes/5-state-textfield.md#state) |
+| 18 | False | `Center` has `child` and holds one widget. | [Widgets and their parameters](notes/4-widgets-buttons.md#widgets) |
+| 19 | C | Dart starts at `main()`, all in small letters. | [main(), variables and types](notes/1-flutter-variables-strings.md#variables) |
+| 20 | A | 3.25 × 2 = 6.5, and `${ }` prints the result. | [Strings and numbers](notes/1-flutter-variables-strings.md#strings-numbers) |
+| 21 | D | `int.parse` accepts whole numbers only. | [Strings and numbers](notes/1-flutter-variables-strings.md#strings-numbers) |
+| 22 | C | A comparison gives a bool. The value is `false`, which is fine. | [main(), variables and types](notes/1-flutter-variables-strings.md#variables) |
+| 23 | B | This is a Set, so the second 'A1' is dropped. | [List, Set and Map](notes/2-collections-loops.md#collections) |
+| 24 | B | Reading a key that does not exist gives `null`. | [List, Set and Map](notes/2-collections-loops.md#collections) |
+| 25 | C | `remark` is null, so `??` uses the right side. | [Null safety](notes/3-functions-null-classes.md#null-safety) |
+| 26 | D | A plain `String` cannot be null and has no value yet. | [Null safety](notes/3-functions-null-classes.md#null-safety) |
+| 27 | C | Two positional values, then the named one with a colon. | [Functions and parameters](notes/3-functions-null-classes.md#functions) |
+| 28 | D | `qty` is named, so a bare `3` is not allowed. | [Functions and parameters](notes/3-functions-null-classes.md#functions) |
+| 29 | D | Both required parameters are there, and `onPressed` may be null. | [Buttons and constructor headers](notes/4-widgets-buttons.md#buttons) |
+| 30 | C | `runApp` takes one widget. | [Widgets and their parameters](notes/4-widgets-buttons.md#widgets) |
+| 31 | B | `.text` holds what the user typed. | [TextField and its controller](notes/5-state-textfield.md#textfield) |
+| 32 | B | `setState` makes the change and asks Flutter to rebuild. | [Stateless, Stateful and setState](notes/5-state-textfield.md#state) |
+| 33 | A, C, E | `Row` and `Column` take `children`. | [Widgets and their parameters](notes/4-widgets-buttons.md#widgets) |
+| 34 | A, C, D | `home` belongs to `MaterialApp`. `children` belongs to Row and Column. | [Widgets and their parameters](notes/4-widgets-buttons.md#widgets) |
+| 35 | A, B | `.text` must be a String, so `null` and `0` do not compile. | [TextField and its controller](notes/5-state-textfield.md#textfield) |
